@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/liaohuqiu/SimpleHashSet.svg)](https://travis-ci.org/liaohuqiu/SimpleHashSet)
+
 ### maven 中央库
 
 ```xml
