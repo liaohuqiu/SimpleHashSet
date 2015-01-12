@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/liaohuqiu/SimpleHashSet.svg)](https://travis-ci.org/liaohuqiu/SimpleHashSet)
 
+[中文说明](https://github.com/liaohuqiu/SimpleHashSet/blob/master/README.cn.md)
+
 ### maven Central
 
 ```xml
