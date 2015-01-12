@@ -2,6 +2,14 @@ package in.srain.cube.set.hash;
 
 import java.util.*;
 
+/**
+ * A simple HashSet, save 25% memory.
+ * http://www.liaohuqiu.net/posts/simple-hashset/
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @author srain@php.net
+ */
 public class SimpleHashSet<T> extends AbstractSet<T> implements Set<T>, Cloneable {
 
     private static final int MINIMUM_CAPACITY = 4;

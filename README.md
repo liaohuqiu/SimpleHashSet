@@ -62,3 +62,7 @@ The retained heap size is:
 *  64bit JVM `-UseCompressedOops`: 16 + 8 * 3 = 40 bytes. (8 bytes saved, 16.66%)
 *  64bit JVM `+UseCompressedOops`: 12 + 4 * 3 = 24 bytes. (8 bytes saved, 25%)
 *  Davlik:    12 + 4 * 3 = 24 bytes (8 bytes saved, 25%).
+
+### License
+
+Apache 2

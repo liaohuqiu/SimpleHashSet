@@ -62,3 +62,8 @@ private static class SimpleHashSetEntry<T> {
 *  Davlik:    12 + 4 * 3 = 24 bytes (8 bytes saved, 25%).
 
 除了了32位的JVM上，都能节省可观的内存。
+
+
+### License
+
+Apache 2
