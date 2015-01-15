@@ -22,6 +22,7 @@ compile 'in.srain.cube:simple-hashset:1.0.1'
 ### Save 25% memory
 
 > Object Size in Java:  http://www.codeinstructions.com/2008/12/java-objects-memory-structure.html, http://btoddb-java-sizing.blogspot.com/2012/01/object-sizes.html
+
 > Object Size in Davlik : http://www.liaohuqiu.net/posts/android-object-size-dalvik/
 
 In fact, `java.util.HashSet` is just a wrapper of `java.util.HashMap`, so its retained heap size is O(`n` * `entry_size`).
