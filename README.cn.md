@@ -19,6 +19,9 @@ compile 'in.srain.cube:simple-hashset:1.0.1'
 
 ### 最多节省 25% 内存
 
+> Java 内存大小: http://www.liaohuqiu.net/cn/posts/caculate-object-size-in-java/
+> Davlik 内存大小: http://www.liaohuqiu.net/posts/android-object-size-dalvik/
+
 `java.util.HashSet` 仅仅是简单包装了 `java.util.HashMap`, 内存占用为 O(`n` * `entry_size`).
 
 `java.util.HashMap` 采用链接法解决冲突, `n` 是元素总数和数组中可用槽之和。
